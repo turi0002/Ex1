@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ex1</string>
+    <string name="intro_text">this activity demostates the use of relative Layout with two internal liniar layouts</string>
+    <string name="name">your name</string>
 </resources>
