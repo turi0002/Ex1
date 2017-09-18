@@ -2,4 +2,9 @@
     <string name="app_name">Ex1</string>
     <string name="intro_text">this activity demostates the use of relative Layout with two internal liniar layouts</string>
     <string name="name">your name</string>
+    <string name="choose1">option1</string>
+    <string name="choose2">option2</string>
+    <string name="choose3">option3</string>
+    <string name="radio">alternative1</string>
+    <string name="radio2">alternative2</string>
 </resources>
