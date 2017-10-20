@@ -90,19 +90,27 @@
             android:layout_height="wrap_content" >
 
             <RadioButton
-                android:id="@+id/radioButton5"
-                android:layout_width="wrap_content"
+                android:id="@+id/RBalternative2"
+                android:layout_width="119dp"
                 android:layout_height="53dp"
                 android:layout_marginTop="50dp"
-                android:text="RadioButton" />
+                android:text="@string/radio" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/RBalternative1"
                 android:layout_width="wrap_content"
-                android:layout_height="80dp"
-                android:text="RadioButton" />
+                android:layout_height="30dp"
+                android:text="@string/radio2" />
         </RadioGroup>
-    </LinearLayout>
 
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="4dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_toLeftOf="@id/linearLayout4"
+        android:layout_marginTop="210dp"/>
 
 </RelativeLayout>
