@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="3500dp"
+        android:layout_height="30dp"
+        android:text="@string/intro_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Intro"
+        android:layout_alignStart="@+id/Intro"
+        android:id="@+id/llText">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/llText"
+        android:layout_toEndOf="@+id/llText"
+        android:text="@string/button" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llText"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical"
+        android:layout_alignStart="@+id/llText"
+        android:weightSum="1"
+        android:id="@+id/llChecks">
+
+        <CheckBox
+            android:id="@+id/CBoption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose1" />
+
+        <CheckBox
+            android:id="@+id/CBoption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose2" />
+
+        <CheckBox
+            android:id="@+id/CBoption3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="88dp"
+        android:layout_below="@+id/llText"
+        android:layout_alignEnd="@+id/llText"
+        android:id="@+id/linearLayout4">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_marginTop="50dp"
+                android:text="RadioButton" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="RadioButton" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+</RelativeLayout>
