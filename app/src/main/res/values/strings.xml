@@ -8,4 +8,5 @@
     <string name="choose3">option3</string>
     <string name="radio">alternative1</string>
     <string name="radio2">alternative2</string>
+    <string name="intro_layout2">this activity demostates the use of grid layout with embedded image view</string>
 </resources>
