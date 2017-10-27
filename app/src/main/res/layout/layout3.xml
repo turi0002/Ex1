@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tableLayout">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Cell1"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:layout_height="60dp"
+                android:text="@string/Cell1"
+                android:background="@drawable/layout3_backround"/>
+
+            <TextView
+                android:id="@+id/Cell2"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout3_backround"
+                android:text="@string/Cell2"
+                android:textSize="30dp" />/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/Cell3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:text="@string/Cell3"
+                android:layout_weight="1"
+                android:background="@drawable/layout3_backround"/>
+            <TextView
+                android:id="@+id/Cell4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:text="@string/Cell4"
+                android:layout_weight="1"
+                android:background="@drawable/layout3_backround"
+                />
+            <TextView
+                android:id="@+id/Cell5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:layout_weight="1"
+
+                android:text="@string/Cell5"
+                android:background="@drawable/layout3_backround"
+                />
+            <TextView
+                android:id="@+id/Cell6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_span="1"
+                android:text="@string/Cell6"
+                android:background="@drawable/layout3_backround"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Cell7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:text="@string/Cell7"
+                android:background="@drawable/layout3_backround"
+                />
+            <TextView
+                android:id="@+id/Cell8"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:text="@string/Cell8"
+                android:background="@drawable/layout3_backround"
+                />
+            <TextView
+                android:id="@+id/Cell9"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:layout_weight="2"
+                android:layout_span="2"
+                android:text="@string/Cell9"
+                android:background="@drawable/layout3_backround"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/intro_layout3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

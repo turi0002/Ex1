@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#3e86f9">
+
+        <TextView
+            android:id="@+id/TvIntro"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_layout4"
+            android:textColor="#f9f9f9"/>
+
+        <TextView
+            android:id="@+id/Tv3"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:background="@drawable/border4"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="140dp"
+            />
+
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="190dp"
+            android:id="@+id/TvClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Clock"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <AnalogClock
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="130dp"/>
+
+    </FrameLayout>
+</RelativeLayout>

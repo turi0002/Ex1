@@ -8,5 +8,17 @@
     <string name="choose3">option3</string>
     <string name="radio">alternative1</string>
     <string name="radio2">alternative2</string>
+    <string name="Cell1">Cell1</string>
+    <string name="Cell2">Cell2</string>
+    <string name="Cell3">Cell3</string>
+    <string name="Cell4">Cell1</string>
+    <string name="Cell5">Cell5</string>
+    <string name="Cell6">Cell6</string>
+    <string name="Cell7">Cell7</string>
+    <string name="Cell8">Cell8</string>
+    <string name="Cell9">Cell9</string>
+    <string name="Clock">My clock</string>
+    <string name="intro_layout4">this activity demostates the use of Frame layout with multiple views on top of each other></string>
     <string name="intro_layout2">this activity demostates the use of grid layout with embedded image view</string>
+    <string name="intro_layout3">this activity demostates the use of Table Layout with spanning columns</string>
 </resources>
